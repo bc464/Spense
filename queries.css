@@ -1,0 +1,113 @@
+@media only Screen and (max-width: 1200px) {
+  html {
+    font-size: 52%;
+  }
+  .company-logos {
+    gap: 2rem;
+  }
+}
+@media only Screen and (max-width: 1000px) {
+  .section-hero {
+    flex-direction: column-reverse;
+  }
+  .hero-img {
+    background-image: url("Assets/Phone\Mockup\\(Tablet\).png");
+    width: 100%;
+  }
+  .company-logos {
+    gap: 4rem;
+  }
+  .logos {
+    width: 11.5rem;
+  }
+  .logos-hidden {
+    display: none;
+  }
+  .escrow {
+    flex-direction: column;
+  }
+  .escrow-heading {
+    padding-top: 4.8rem;
+    width: 60%;
+  }
+  .escrow-text {
+    width: 80%;
+  }
+
+  .secure-money-img {
+    width: 100%;
+  }
+  .section-editor {
+    flex-direction: column-reverse;
+  }
+  .editor-heading {
+    font-size: 2rem;
+  }
+}
+@media only Screen and (max-width: 800px) {
+  .company-logos {
+    gap: 2rem;
+  }
+}
+@media only Screen and (max-width: 600px) {
+  html {
+    font-size: 40%;
+  }
+  body {
+    width: 375px;
+  }
+  .nav-bar {
+    display: none;
+  }
+  .btn-mobile-nav {
+    display: block;
+  }
+  .hero-img {
+    background-image: url("Assets/Hero\ Image\ \(Mobile\).png");
+    width: 100%;
+  }
+  .company-logos {
+    width: 90%;
+  }
+  .logos {
+    width: 16rem;
+  }
+  .logos-hidden-mobile {
+    display: none;
+  }
+  .escrow {
+    width: 90%;
+  }
+  .escrow-heading {
+    padding-top: 4.8rem;
+    width: 80%;
+  }
+  .phone-img {
+    width: 100%;
+  }
+  .section-editor {
+    width: 90%;
+  }
+  .editor-text h2 {
+    font-size: 4rem;
+    width: 80%;
+  }
+  .editor-text p {
+    font-size: 2.4rem;
+  }
+
+  .section-footer {
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+  }
+  .logo-info {
+    width: 100%;
+  }
+  .mobile-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+}
